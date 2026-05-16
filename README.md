@@ -1,4 +1,4 @@
-# 💳 Credit Card Fraud Detection using Machine Learning
+# Credit Card Fraud Detection using Machine Learning
 
 <p align="center">
   <img src="image.png" alt="Fraud Detection Banner" width="900" />
@@ -8,7 +8,7 @@ A complete Machine Learning project for detecting fraudulent credit card transac
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 Credit card fraud has become one of the biggest challenges in digital financial systems. The objective of this project is to build an intelligent fraud detection model capable of identifying suspicious transactions with high accuracy and low false-positive rates.
 
@@ -23,9 +23,9 @@ The model is trained on the popular Kaggle Credit Card Fraud Detection dataset.
 
 ---
 
-# 🚀 Workflow of the Project
+#  Workflow of the Project
 
-## 1️⃣ Importing Required Libraries
+## 1️.Importing Required Libraries
 
 The project begins by importing important Python libraries for:
 
@@ -60,7 +60,7 @@ from sklearn.metrics import (
 
 ---
 
-## 2️⃣ Loading the Dataset
+## 2. Loading the Dataset
 
 The dataset is loaded using Pandas:
 
@@ -81,7 +81,7 @@ Where:
 
 ---
 
-## 3️⃣ Exploratory Data Analysis (EDA)
+## 3️.Exploratory Data Analysis (EDA)
 
 The project performs detailed data analysis to understand the dataset structure.
 
@@ -108,13 +108,13 @@ This imbalance is one of the biggest challenges in fraud detection systems.
 
 ---
 
-# 📊 Data Visualization
+#  Data Visualization
 
 Several visualizations are generated to better understand the dataset.
 
 ---
 
-## 🔥 Correlation Heatmap
+##  Correlation Heatmap
 
 A correlation matrix is created using Seaborn:
 
@@ -134,7 +134,7 @@ sns.heatmap(corrmat)
 
 ---
 
-## 📉 Confusion Matrix
+##  Confusion Matrix
 
 Used to evaluate prediction performance.
 
@@ -153,7 +153,7 @@ This helps analyze how effectively the model identifies fraud transactions.
 
 ---
 
-## 📈 ROC Curve
+##  ROC Curve
 
 The ROC Curve measures classification performance across thresholds.
 
@@ -171,7 +171,7 @@ A higher ROC-AUC score indicates a better model.
 
 ---
 
-## 📌 Feature Importance Graph
+##  Feature Importance Graph
 
 Random Forest provides feature importance scores.
 
@@ -183,7 +183,7 @@ Top important features are visualized using a bar chart to understand which vari
 
 ---
 
-# ⚙️ Data Preprocessing
+#  Data Preprocessing
 
 ## Feature & Target Separation
 
@@ -227,7 +227,7 @@ Stratified splitting ensures proper fraud class distribution.
 
 ---
 
-# 🤖 Machine Learning Model
+#  Machine Learning Model
 
 ## Random Forest Classifier
 
@@ -254,7 +254,7 @@ random_state=42
 
 ---
 
-# 📊 Model Evaluation Metrics
+#  Model Evaluation Metrics
 
 The model performance is evaluated using multiple metrics:
 
@@ -269,16 +269,16 @@ The model performance is evaluated using multiple metrics:
 
 ---
 
-# 🧠 Key Learnings from the Project
+#  Key Learnings from the Project
 
-✅ Handling Imbalanced Datasets  
-✅ Data Visualization Techniques  
-✅ Feature Scaling  
-✅ Random Forest Classification  
-✅ Fraud Detection Systems  
-✅ Model Evaluation Techniques  
-✅ Confusion Matrix Analysis  
-✅ ROC Curve Analysis  
+ Handling Imbalanced Datasets  
+ Data Visualization Techniques  
+ Feature Scaling  
+ Random Forest Classification  
+ Fraud Detection Systems  
+ Model Evaluation Techniques  
+ Confusion Matrix Analysis  
+ ROC Curve Analysis  
 
 ---
 
@@ -295,7 +295,7 @@ The model performance is evaluated using multiple metrics:
 
 ---
 
-# 📷 Project Visualization
+#  Project Visualization
 
 The project includes:
 
@@ -309,7 +309,7 @@ These visualizations help explain the model behavior clearly.
 
 ---
 
-# 📈 Sample Output
+#  Sample Output
 
 ```text
 Accuracy: 0.9991
@@ -321,7 +321,7 @@ ROC AUC: 0.9775
 
 ---
 
-# 🎯 Conclusion
+#  Conclusion
 
 The Random Forest model performs exceptionally well in detecting fraudulent credit card transactions. Despite the dataset being highly imbalanced, the model achieves strong performance by effectively distinguishing between normal and fraudulent transactions.
 
@@ -329,7 +329,7 @@ This project demonstrates how Machine Learning can be applied in real-world fina
 
 ---
 
-# ⭐ Future Improvements
+#  Future Improvements
 
 - Implement Deep Learning models
 - Use XGBoost or LightGBM
@@ -338,53 +338,6 @@ This project demonstrates how Machine Learning can be applied in real-world fina
 - Streamlit Dashboard Integration
 - Hyperparameter Optimization
 
----
-
-# 🛠️ Installation & Setup
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/your-username/credit-card-fraud-detection.git
-```
-
-## Navigate to Project Folder
-
-```bash
-cd credit-card-fraud-detection
-```
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run the Project
-
-```bash
-python fraud_detection.py
-```
-
----
-
-# 📁 Project Structure
-
-```text
-credit-card-fraud-detection/
-│
-├── creditcard.csv
-├── fraud_detection.py
-├── README.md
-├── requirements.txt
-│
-├── assets/
-│   ├── fraud-detection-banner.png
-│   ├── correlation-matrix.png
-│   ├── confusion-matrix.png
-│   ├── roc-curve.png
-│   └── feature-importance.png
-```
 
 ---
 
