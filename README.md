@@ -1,6 +1,8 @@
 # 💳 Credit Card Fraud Detection using Machine Learning
 
-![Fraud Detection Banner](./assets/fraud-detection-banner.png)
+<p align="center">
+  <img src="image.png" alt="Fraud Detection Banner" width="900" />
+</p>
 
 A complete Machine Learning project for detecting fraudulent credit card transactions using the Random Forest Classifier. This project focuses on handling highly imbalanced datasets, analyzing transaction behavior, and evaluating model performance using multiple classification metrics.
 
